@@ -10,6 +10,7 @@
 
 @interface CoinFlipViewController : UIViewController
 
+- (IBAction)flipCoin:(id)sender;
 @property (weak, nonatomic) IBOutlet UILabel *resultsLabel;
 
 @end

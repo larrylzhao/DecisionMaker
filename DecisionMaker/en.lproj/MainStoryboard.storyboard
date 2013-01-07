@@ -90,6 +90,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="flipCoin:" destination="vQl-iy-W7A" eventType="touchUpInside" id="hGa-Fz-UZz"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cV9-RZ-CzH">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -137,6 +140,7 @@
         <class className="CoinFlipViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CoinFlipViewController.h"/>
             <relationships>
+                <relationship kind="action" name="flipCoin:"/>
                 <relationship kind="outlet" name="resultsLabel" candidateClass="UILabel"/>
             </relationships>
         </class>
