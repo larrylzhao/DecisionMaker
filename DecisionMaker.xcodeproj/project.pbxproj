@@ -17,7 +17,9 @@
 		7418A14A169A3EEC000AB242 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7418A149169A3EEC000AB242 /* Default@2x.png */; };
 		7418A14C169A3EEC000AB242 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7418A14B169A3EEC000AB242 /* Default-568h@2x.png */; };
 		7418A14F169A3EED000AB242 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7418A14D169A3EED000AB242 /* MainStoryboard.storyboard */; };
-		7418A152169A3EED000AB242 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7418A151169A3EED000AB242 /* ViewController.m */; };
+		7418A15A169A4061000AB242 /* MasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7418A159169A4061000AB242 /* MasterTableViewController.m */; };
+		7418A15D169A408B000AB242 /* CoinFlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7418A15C169A408B000AB242 /* CoinFlipViewController.m */; };
+		7418A160169A40B2000AB242 /* RngViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7418A15F169A40B2000AB242 /* RngViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +37,12 @@
 		7418A149169A3EEC000AB242 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		7418A14B169A3EEC000AB242 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7418A14E169A3EED000AB242 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		7418A150169A3EED000AB242 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7418A151169A3EED000AB242 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7418A158169A4061000AB242 /* MasterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterTableViewController.h; sourceTree = "<group>"; };
+		7418A159169A4061000AB242 /* MasterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterTableViewController.m; sourceTree = "<group>"; };
+		7418A15B169A408B000AB242 /* CoinFlipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinFlipViewController.h; sourceTree = "<group>"; };
+		7418A15C169A408B000AB242 /* CoinFlipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinFlipViewController.m; sourceTree = "<group>"; };
+		7418A15E169A40B2000AB242 /* RngViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RngViewController.h; sourceTree = "<group>"; };
+		7418A15F169A40B2000AB242 /* RngViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RngViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +92,12 @@
 				7418A144169A3EEC000AB242 /* AppDelegate.h */,
 				7418A145169A3EEC000AB242 /* AppDelegate.m */,
 				7418A14D169A3EED000AB242 /* MainStoryboard.storyboard */,
-				7418A150169A3EED000AB242 /* ViewController.h */,
-				7418A151169A3EED000AB242 /* ViewController.m */,
+				7418A158169A4061000AB242 /* MasterTableViewController.h */,
+				7418A159169A4061000AB242 /* MasterTableViewController.m */,
+				7418A15B169A408B000AB242 /* CoinFlipViewController.h */,
+				7418A15C169A408B000AB242 /* CoinFlipViewController.m */,
+				7418A15E169A40B2000AB242 /* RngViewController.h */,
+				7418A15F169A40B2000AB242 /* RngViewController.m */,
 				7418A13C169A3EEC000AB242 /* Supporting Files */,
 			);
 			path = DecisionMaker;
@@ -175,7 +185,9 @@
 			files = (
 				7418A142169A3EEC000AB242 /* main.m in Sources */,
 				7418A146169A3EEC000AB242 /* AppDelegate.m in Sources */,
-				7418A152169A3EED000AB242 /* ViewController.m in Sources */,
+				7418A15A169A4061000AB242 /* MasterTableViewController.m in Sources */,
+				7418A15D169A408B000AB242 /* CoinFlipViewController.m in Sources */,
+				7418A160169A40B2000AB242 /* RngViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
