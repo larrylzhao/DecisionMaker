@@ -15,6 +15,8 @@
 @implementation CoinFlipViewController
 @synthesize resultsLabel;
 
+int r;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -39,6 +41,12 @@
 }
 
 - (IBAction)flipCoin:(id)sender {
-    [resultsLabel setText:@"no"];
+    
+    r = arc4random() % 2;
+    if(r == 0)
+        [resultsLabel setText:@"Tails!"];
+    else
+        [resultsLabel setText:@"Heads!"];
+    
 }
 @end
